@@ -2,6 +2,8 @@ package com.project.adesp.models;
 
 import jakarta.persistence.*;
 
+import java.util.Arrays;
+
 @Entity
 @Table(name = "contacts")
 public class Contact implements Identification {
