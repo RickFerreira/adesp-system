@@ -23,4 +23,5 @@ public interface BaseController<T> {
     @DeleteMapping("/{id}")
     ResponseEntity<Void> deleteById(@PathVariable Long id);
 
+
 }

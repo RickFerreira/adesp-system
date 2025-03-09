@@ -7,10 +7,8 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 import javax.sql.DataSource;
 
-@Configuration
 @EnableAutoConfiguration
 public class DataSourceConfiguration {
-
 
     @Bean
     public DataSource dataSource() {
